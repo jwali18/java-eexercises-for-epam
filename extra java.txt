@@ -1,0 +1,38 @@
+doc 3. qn0.1
+import java.util.*;
+
+class Main{
+ 
+   public static void main(String args[])
+    {
+
+        Scanner sc=new Scanner(System.in);
+
+        int i,sum=0,avg;
+ 
+      int n=sc.nextInt();
+ 
+       int a[]=new int[n];
+ 
+       System.out.println("Enter the array elements");
+     
+   for(i=0;i<n;i++)
+     
+   {
+          
+  a[i]=sc.nextInt();
+
+            sum=sum+a[i];
+   
+         
+        }
+
+        avg=sum/n;
+    
+    System.out.println("sum is"+sum);
+     
+   System.out.println("avg is"+avg);
+     
+   
+    }
+}
